@@ -1,5 +1,5 @@
 spring:
-    liquibase:
+  liquibase:
     enabled: true
   jpa:
     hibernate:
