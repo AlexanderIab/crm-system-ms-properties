@@ -2,5 +2,5 @@ spring:
   cloud:
     stream:
       bindings:
-        organisationInputChannel:
+        organisationOutputChannel:
           destination: crm-mc
