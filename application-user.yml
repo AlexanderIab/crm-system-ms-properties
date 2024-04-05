@@ -4,3 +4,4 @@ spring:
       bindings:
         organisationInputChannel:
           destination: crm-mc
+          binder: rabbit
