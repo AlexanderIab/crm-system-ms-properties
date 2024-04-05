@@ -1,6 +1,0 @@
-spring:
-  cloud:
-    stream:
-      bindings:
-        organisationOutputChannel:
-          destination: crm-mc
