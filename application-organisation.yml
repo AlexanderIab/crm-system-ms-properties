@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    function:
+      definition: newOrganisationActionProduce
+    stream:
+      bindings:
+        newOrganisationActionProduce-out-0: organisation-destination
