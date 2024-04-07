@@ -1,9 +1,0 @@
-spring:
-  cloud:
-    function:
-      definition: newOrganisationActionConsume
-    stream:
-      bindings:
-        newOrganisationActionConsume-in-0: 
-          destination: organisation-destination
-          group: crm-group
